@@ -1,0 +1,96 @@
+body {
+  background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
+  display: flex;
+  justify-content: center;
+}
+
+.gameBoard {
+  position: absolute;
+  top: 26%;
+  left: 26%;
+  border-radius: 5%;
+  width: 900px;
+  height: 400px;
+  display: flex;
+  /*display: table;*/
+  background-color: aqua;
+  z-index: 1;
+}
+
+.Board1 {
+  border-radius: 5%;
+  display: table-cell;
+  width: 450px;
+  background-color: rgb(212, 165, 178);
+  z-index: inherit;
+}
+
+.Board2 {
+  border-radius: 5%;
+  display: table-cell;
+  /*  display: flex;
+  flex-direction: column;
+  height: 100%;*/
+  width: 450px;
+  background-color: rgb(177, 111, 139);
+  z-index: inherit;
+}
+
+.score-board {
+  position: relative;
+  /*  top: 20%; */
+  margin-left: 130px;
+  border-radius: 5%;
+  width: 130px;
+  background-color: rgb(191, 47, 87);
+  z-index: inherit;
+}
+
+.playerData {
+  margin-top: 90px;
+  margin-bottom: 90px;
+  margin-left: 130px;
+}
+
+.score {
+  position: relative;
+  left: 20%;
+}
+
+.currentScore {
+  position: relative;
+  left: 40%;
+}
+
+.current {
+  position: relative;
+  left: 15%;
+}
+
+img {
+  width: 40%;
+}
+
+.rollDice {
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 9px;
+}
+
+.newGame {
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 9px;
+}
+
+.hold {
+  z-index: 2;
+  overflow: hidden;
+  display: flex;
+  border: 2px solid black;
+  margin-bottom: 9px;
+}
